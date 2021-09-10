@@ -1,6 +1,6 @@
 body {
     background-color: #EEE;
-    font-family: "Oleo Script";
+    font-family: "helvetica";
 }
 
 #container {
@@ -15,6 +15,7 @@ body {
     text-align: center;
     background: skyblue;
     color: white;
+    font-family: "Oleo Script";
     font-size: 30px;
 }
 
@@ -26,5 +27,19 @@ body {
     padding: 1%;
     background-color: gray;
     color: white;
+    font-family: "Oleo Script";
     text-align: center;
+}
+
+label {
+    padding-left: 10%;
+}
+
+label, #availabilitiesSelect {
+    display:inline-block;
+}
+
+#availabilitiesSelect {
+    width:90px;
+    margin-left:3%;
 }
