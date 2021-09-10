@@ -2,8 +2,18 @@
 <html>
     <head>
         <title>MeetUp</title>
-        <link rel="stylesheet" type="text/css" href="style.css"/>
         <link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
+        
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="node_modules/jquery-schedule/jquery.weekly-schedule-plugin.js"></script>
+        <script src="src/index.js"></script>
+        
     </head>
     <body>
         <div id="container">
@@ -12,12 +22,26 @@
                 <p>Find availabilities with your co-workers or friends within a click!</p>
             </div>
             <div id="content">
+                <div class="container" >
+                    <div id="target">
+                    </div>
+                </div>
+                <script>
+                    $('#target').weekly_schedule();
+                </script>
             </div>
             <div id="footer">
                 </p>Made by Tianwei Ding and Janssen Qu</p>
                 </p>For PennAppsXXII</p> 
             </div>
         </div>
+        
+
     </body>
 </html>
+
+
+     
+    
+    
 
