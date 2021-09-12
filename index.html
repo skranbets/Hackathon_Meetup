@@ -66,12 +66,18 @@
                              
                             </div>
                         </div>
-                        <!-- <script>
+                        <script>
                             $('#person1').weekly_schedule();
-                        </script> -->
+                        </script>
                         
                     </div>
                 </div>
+                <button onclick="test()">Click me to get the hours</button>
+                <script>
+                    function test() {
+                        console.log($('#mySchedule').weekly_schedule("getSelectedHour"));
+                    }
+                </script>
             </div>
             <div id="footer">
                 </p>Made by Tianwei Ding and Janssen Qu</p>
